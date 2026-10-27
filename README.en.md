@@ -6,7 +6,7 @@ each stem, kick / snare / hat hits, optional notes, timed lyrics), plus a writte
 that data into a beat-synced motion-graphics music video. It ships a ready 2D dance-video planner
 and a flat SVG character rig, so the first video works without any 3D models.
 
-Free and open source (MIT). Made by Redirhan Studio.
+Free and open source (MIT). Made by Redirhan Labs.
 
 ## What's inside
 
