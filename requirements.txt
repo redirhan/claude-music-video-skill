@@ -1,0 +1,11 @@
+# Required
+numpy>=1.24
+
+# Optional, each one improves a part of the song folder (the run degrades gracefully without them)
+# beat-this        # MIT  - real downbeats, steadier beats (pulls in torch, ~2 GB)
+# torch
+# demucs           # MIT  - vocals/drums/bass/other stems (much cleaner hits and lyrics)
+# basic-pitch      # Apache-2.0 - notes.json (often needs its own Python 3.10 venv: set MV_BASIC_PITCH_PYTHON)
+
+# For the tests
+pytest>=7

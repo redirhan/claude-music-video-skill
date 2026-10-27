@@ -1,0 +1,12 @@
+/* runtime/dance2d.css — 2D dance music video (flat look, condensed kinetic lyrics). */
+@font-face { font-family: "Anton"; src: url("fonts/Anton-Regular.ttf"); font-weight: 400; } /* OFL, fonts/OFL-Anton.txt */
+html, body { margin: 0; padding: 0; background: #2B1D4F; overflow: hidden; }
+#root { position: relative; overflow: hidden; }
+.stage { position: absolute; left: 0; top: 0; display: block; }
+.lyrics { position: absolute; inset: 0; pointer-events: none; }
+.lyrics .line { position: absolute; left: 50%; white-space: nowrap; font-family: "Anton", "Impact", sans-serif;
+  font-size: 150px; line-height: 1; letter-spacing: 2px; text-transform: uppercase; color: #FFFFFF;
+  -webkit-text-stroke: 10px #1E1B2E; paint-order: stroke fill; text-shadow: 10px 10px 0 #1E1B2E; }
+.lyrics .word { display: inline-block; margin: 0 22px; transform-origin: 50% 80%; }
+.credit { position: absolute; right: 26px; bottom: 64px; font-family: "Anton", sans-serif; font-size: 22px;
+  letter-spacing: 1px; color: rgba(255, 255, 255, 0.85); text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5); }
